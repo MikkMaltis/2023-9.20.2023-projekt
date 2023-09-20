@@ -1,5 +1,5 @@
 # 20.09-22.09.2023-projekt
-Probleem: Ei leia õige prügi jaoks õigete konteinerite asukohti.
-Lahendus: Kasutaja leiab äppi kasutades kõik õigete konteinerite asukohad.
+Probleem: Laps ei tea prügisorteerimisest midagi, talle on vaja seda õpetada.
+Lahendus: Kerge mäng, et prügisorteerimise kohta infot koguda.
 
 Selge. Siia siis kogume infot.
