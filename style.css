@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.bottom-nav-bar {
+    background-color: rgb(229, 220, 231);
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type {
+
+}
+
+.search {
+
+}
+
+.info {
+
+}
+
+.magnifier {
+color: #000000;
+background-color: transparent;
+border-style: solid;
+border-radius: 20px;
+padding: 6px;
+border-width: 1px;
+}
