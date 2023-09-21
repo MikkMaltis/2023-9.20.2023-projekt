@@ -1,7 +1,6 @@
 <script setup>
 import InfoItem from '../components/InfoItem.vue';
 import SearchItem from '../components/SearchItem.vue';
-import { RouterLink } from 'vue-router';
 </script>
 
 <template>

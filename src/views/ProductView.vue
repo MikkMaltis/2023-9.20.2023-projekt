@@ -1,6 +1,5 @@
 <script setup>
 import InfoItem from "../components/InfoItem.vue";
-import { RouterLink } from 'vue-router';
 </script>
 
 <template>
