@@ -6,17 +6,16 @@ import ManualItem from '../components/ManualItem.vue';
 <template>
     <div class="container">
         <img src="../assets/pics/scan.png" class="scanner" alt="scan">
-
-        <div class="textContainer">
+        
+        <div class="text-container">
             <p>Palun skaneeri pakend ja sa saad teada, kuhu selle viskama peaksid</p>
         </div>
-        <div class="buttonContainer">
+        <div class="button-container">
             <RouterLink to="/product">
                 <button>SKANNEERI TRIIPKOOD</button>
             </RouterLink>
         </div>
     </div>
-    
 
     <div class="footer">
       <div class="position">
@@ -42,7 +41,7 @@ import ManualItem from '../components/ManualItem.vue';
     text-align: center;
 }
 
-.textContainer {
+.text-container {
     text-align: center;
     font-size: large;
     display: block;
@@ -51,7 +50,7 @@ import ManualItem from '../components/ManualItem.vue';
     width: 60%;
 }
 
-.buttonContainer {
+.button-container {
     margin-top: 20px;
 }
 

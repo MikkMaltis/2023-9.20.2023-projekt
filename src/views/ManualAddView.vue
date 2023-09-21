@@ -5,13 +5,13 @@ import SearchItem from '../components/SearchItem.vue';
 
 <template>
     <div class="container">
-        <div class="commandContainer">
+        <div class="command-container">
             <h2>Sisesta pakendi triipkood</h2>
         </div>
-        <div class="inputContainer">
-            <input type="number" class="input_field">
+        <div class="input-container">
+            <input type="number" class="input-field">
         </div>
-        <div class="buttonContainer">
+        <div>
             <RouterLink to="/product">
                 <button>OTSI</button>
             </RouterLink>
@@ -36,7 +36,7 @@ import SearchItem from '../components/SearchItem.vue';
   text-align: center;
   height: 100%;
 }
-.commandContainer {
+.command-container {
     height: 400px;
     display: block;
     margin-left: auto;
@@ -45,11 +45,11 @@ import SearchItem from '../components/SearchItem.vue';
     padding: 150px 0;
 }
 
-.inputContainer {
+.input-container {
     margin-bottom: 20px;
 }
 
-.input_field {
+.input-field {
     height: 50px;
     width: 70%;
     text-align: center;

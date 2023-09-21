@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <button class="manual_add">
+        <button class="manual-add">
         <p>LISA KÄSITSI</p>
     </button>
     </div>
@@ -8,7 +8,7 @@
 </template>
 
 <style scoped>
-.manual_add {
+.manual-add {
     width: 130px;
     height: 40px;
     border-radius: 10px;
