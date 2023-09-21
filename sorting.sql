@@ -4,7 +4,7 @@
 -- https://tableplus.com/
 --
 -- Database: Recycle
--- Generation Time: 2023-09-21 10:45:17.7400
+-- Generation Time: 2023-09-21 11:19:30.4490
 -- -------------------------------------------------------------
 
 
@@ -19,13 +19,20 @@
 
 
 CREATE TABLE `sorting` (
-  `id` int DEFAULT NULL,
-  `barcode` int DEFAULT NULL,
+  `product_id` int NOT NULL AUTO_INCREMENT,
+  `barcode` varchar(255) DEFAULT NULL,
   `product` varchar(255) DEFAULT NULL,
   `package` varchar(255) DEFAULT NULL,
-  `container` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `container` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`product_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+INSERT INTO `sorting` (`product_id`, `barcode`, `product`, `package`, `container`) VALUES
+(1, '4741122000092', 'Saaremaa Vesi joogivesi', 'plast', 'pakend'),
+(2, '4742124007010', 'Chemi-Pharm Chemisept antiseptiline geel', 'plast', 'pakend'),
+(3, '4902506050274', 'Pentel White Board Marker', 'papp', 'papp ja paber'),
+(4, '4041485464280', 'ErichKrause Color Pencils', 'papp', 'papp ja paber'),
+(5, '3574661527925', 'Neutrogena Kätekreem', 'plastik', 'pakend');
 
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
