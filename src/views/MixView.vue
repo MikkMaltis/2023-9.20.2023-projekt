@@ -1,6 +1,7 @@
 <script setup>
+    import MixComponent from '../components/MixComponent.vue';
 </script>
 
 <template>
-    <h1>HI</h1>
+    <MixComponent />
 </template>

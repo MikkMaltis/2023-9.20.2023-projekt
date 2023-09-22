@@ -1,6 +1,7 @@
 <script setup>
+    import OldpaperComponent from '../components/OldpaperComponent.vue';
 </script>
 
 <template>
-    <h1>HI</h1>
+    <OldpaperComponent />
 </template>

@@ -1,6 +1,7 @@
 <script setup>
+    import CardboardComponent from '../components/CardboardComponent.vue';
 </script>
 
 <template>
-    <h1>HI</h1>
+    <CardboardComponent />
 </template>
