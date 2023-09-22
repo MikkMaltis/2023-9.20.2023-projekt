@@ -33,11 +33,12 @@ Kuidas?
 •	Veebirakendus kaardiga, kus näitab konteinerite asukohti
 •	Prügikasti andurid näitavad täituvust
 •	Mäng valikvastustega (V-1)
- <img width="452" alt="image" src="https://github.com/MikkMaltis/2023-9.20.2023-projekt/assets/113007373/3228bf03-7f73-47ea-a76e-70bfd2cbc854">
+
+<img width="452" alt="image" src="https://github.com/MikkMaltis/2023-9.20.2023-projekt/assets/113007373/3228bf03-7f73-47ea-a76e-70bfd2cbc854">
 
 •	Barcode loeb ära mis taaraga on tegu (V-2)
- <img width="327" alt="image" src="https://github.com/MikkMaltis/2023-9.20.2023-projekt/assets/113007373/9ce946f6-97d2-4e1a-91ba-33b4162da68b">
 
+<img width="327" alt="image" src="https://github.com/MikkMaltis/2023-9.20.2023-projekt/assets/113007373/9ce946f6-97d2-4e1a-91ba-33b4162da68b">
 
 Probleem: 
 	Mis jääde kuhu konteineri panna?
