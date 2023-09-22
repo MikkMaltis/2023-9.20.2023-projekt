@@ -1,23 +1,47 @@
 <script setup>
-import PlasticView from './PlasticView.vue';
+import PlasticComponent from '../components/PlasticComponent.vue';
+import BioComponent from '../components/BioComponent.vue';
+import MixComponent from '../components/MixComponent.vue';
+import OldpaperComponent from '../components/OldpaperComponent.vue';
+import GlassComponent from '../components/GlassComponent.vue';
+import CardboardComponent from '../components/CardboardComponent.vue';
 </script>
 
 <template>
-    <div>
+    <div class="logo-card">
         <img src="../assets/pics/logoNEW.png" class="logo" alt="logo">
     </div>
     <table class="sorting-table">
         <ul>
             <RouterLink to="/plastic">
-                <img src="../assets/pics/carton.png" class="carton" alt="carton">
-                <p class="cartong-text">Plast- ja metallpakend, joogikartong</p>
-            </RouterLink>
+                <PlasticComponent />
+            </RouterLink>   
         </ul>
-        <ul></ul>
-        <ul></ul>
-        <ul></ul>
-        <ul></ul>
-        <ul></ul>
+        <ul>
+            <RouterLink to="/bio">
+                <BioComponent />
+            </RouterLink>  
+        </ul>
+        <ul>
+            <RouterLink to="/mix">
+                <MixComponent />
+            </RouterLink>  
+        </ul>
+        <ul>
+            <RouterLink to="/oldpaper">
+                <OldpaperComponent />
+            </RouterLink>  
+        </ul>
+        <ul>
+            <RouterLink to="/glass">
+                <GlassComponent />
+            </RouterLink>  
+        </ul>
+        <ul>
+            <RouterLink to="/cardboard">
+                <CardboardComponent />
+            </RouterLink>  
+        </ul>
     </table>
 </template>
 
@@ -33,12 +57,9 @@ import PlasticView from './PlasticView.vue';
     width: 200px;
     height: 200px;
 }
-.carton {
-    height: 10px;
-    width: 10px;
-}
 
-.cartong-text {
-    font-size: x-large;
+.logo-card {
+    display: flex;
+    justify-content: center;
 }
 </style>

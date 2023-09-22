@@ -1,7 +1,10 @@
 <script setup>
+    import PlasticComponent from '../components/PlasticComponent.vue';
 </script>
 
 <template>
+<PlasticComponent />
+
 <div class="rinsing-container">
     <p class="rinsing">
         Loputa vajadusel kergelt, et ei määriks teisi pakendeid ja kotti. Jäta korgid-kaaned peale.
@@ -36,9 +39,7 @@
             Piima-, mahla- ja veinitooted
         </li>
     </ul>
-</div>
-
-
+</div>    
 </template>
 
 <style scoped>
