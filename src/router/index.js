@@ -37,6 +37,31 @@ const router = createRouter({
     name: 'plastic',
     component: () => import('../views/PlasticView.vue')
   },
+  {
+    path: '/bio',
+    name: 'bio',
+    component: () => import('../views/BioView.vue')
+  },
+  {
+    path: '/mix',
+    name: 'mix',
+    component: () => import('../views/MixView.vue')
+  },
+  {
+    path: '/Cardboard',
+    name: 'cardboard',
+    component: () => import('../views/CardboardView.vue')
+  },
+  {
+    path: '/glass',
+    name: 'glass',
+    component: () => import('../views/GlassView.vue')
+  },
+  {
+    path: '/oldpaper',
+    name: 'oldpaper',
+    component: () => import('../views/OldpaperView.vue')
+  },
   ]
 })
 
