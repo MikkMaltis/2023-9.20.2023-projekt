@@ -46,6 +46,7 @@ Lahendus:
 	Skännid barcode ja annab vastuse
 
 Mõttekäike tahvlilt:
+
 <img width="452" alt="image" src="https://github.com/MikkMaltis/2023-9.20.2023-projekt/assets/113007373/d9d3ba4e-7710-4b6f-9b9c-d8c804abbba6">
 <img width="452" alt="image" src="https://github.com/MikkMaltis/2023-9.20.2023-projekt/assets/113007373/7404bc37-b8bd-4970-b96a-edc1945e0d16">
 <img width="452" alt="image" src="https://github.com/MikkMaltis/2023-9.20.2023-projekt/assets/113007373/b5356dd3-af58-4f84-8e8d-cb49d71786c6">
