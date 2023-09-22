@@ -6,7 +6,7 @@ import SearchItem from '../components/SearchItem.vue';
 <template>
     <div class="container">
         <div class="command-container">
-            <h2>Sisesta pakendi triipkood</h2>
+            <h2>SISESTA PAKENDI TRIIPKOOD</h2>
         </div>
         <div class="input-container">
             <input type="number" class="input-field">
