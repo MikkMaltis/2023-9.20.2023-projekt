@@ -1,6 +1,7 @@
 <script setup>
+    import GlassComponent from '../components/GlassComponent.vue';
 </script>
 
 <template>
-    <h1>HI</h1>
+    <GlassComponent />
 </template>

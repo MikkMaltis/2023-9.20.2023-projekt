@@ -1,6 +1,7 @@
 <script setup>
+    import PlasticComponent from '../components/PlasticComponent.vue';
 </script>
 
 <template>
-    <h1>HI</h1>
+    <PlasticComponent />
 </template>

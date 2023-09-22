@@ -1,6 +1,7 @@
 <script setup>
+import BioComponent from '../components/BioComponent.vue';
 </script>
 
 <template>
-    <h1>HI</h1>
+    <BioComponent />
 </template>
