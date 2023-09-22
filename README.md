@@ -15,6 +15,7 @@ npm run dev
 Prügi sorteerimine
 
 Tiimi liikmed: Mikk Maltis, Aren Ansper, Jako Luik, Katrin Ansper, Mariliis Toon, Siim Pildre, Tene Tiitma
+Figma: https://www.figma.com/file/hj5FK5VU9a3iRuU795YzB3/sorteerimis%C3%84pp?type=design&node-id=0-1&mode=design&t=ZxMZKVX2GnCr62cv-0
 
 	Miks? 
 •	Halvasti sorteeritakse
