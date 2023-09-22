@@ -5,6 +5,8 @@ import MixComponent from '../components/MixComponent.vue';
 import OldpaperComponent from '../components/OldpaperComponent.vue';
 import GlassComponent from '../components/GlassComponent.vue';
 import CardboardComponent from '../components/CardboardComponent.vue';
+import InfoItem from '../components/InfoItem.vue';
+import SearchItem from '../components/SearchItem.vue';
 </script>
 
 <template>
@@ -43,6 +45,14 @@ import CardboardComponent from '../components/CardboardComponent.vue';
             </RouterLink>  
         </ul>
     </table>
+    <div class="footer">
+      <div class="position">
+        <RouterLink to="/scanner">
+          <SearchItem />
+        </RouterLink>
+      </div>
+    </div>
+
 </template>
 
 <style scoped>
@@ -50,7 +60,7 @@ import CardboardComponent from '../components/CardboardComponent.vue';
 .sorting-table {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    margin-bottom: 6em;
 }
 
 .logo {
@@ -62,4 +72,19 @@ import CardboardComponent from '../components/CardboardComponent.vue';
     display: flex;
     justify-content: center;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.position {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 </style>
